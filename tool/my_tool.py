@@ -11,6 +11,6 @@ def reverse_string(s):
 
 # Driver code
 if __name__ == '__main__':
-    # if len(sys.argv) < 2:
-    #     quit('Usage: python3 my_tool.py [file]')
+    if len(sys.argv) < 2:
+        quit('Usage: python3 my_tool.py [file]')
     print(reverse_file(sys.argv[1]))
